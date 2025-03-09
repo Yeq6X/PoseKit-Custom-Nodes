@@ -1,4 +1,4 @@
-# PoseKit Photo2Pose Custom Node for ComfyUI
+# Photo2Pose Custom Node for ComfyUI
 
 このComfyUIカスタムノードは、画像から3Dポーズモデル（FBXおよびGLB形式）を生成します。
 
@@ -11,15 +11,20 @@
 ## インストール
 
 1. このリポジトリをComfyUIの`custom_nodes`ディレクトリにクローンまたはダウンロードします。
-2. 必要なPythonパッケージをインストールします：
+2. 必要なPythonパッケージを**ComfyUIのvenv**にインストールします：
    ```
    pip install python-dotenv requests Pillow
    ```
-3. `.env`を編集して、APIキーを設定します。
+   または、requirements.txtを使用してインストールすることもできます：
+   ```
+   pip install -r requirements.txt
+   ```
+3. `.env.example`をコピーして`.env`に名前を変更し、APIキーを設定します。
 
 ## APIキーの設定
 
-1. `.env`ファイル内の`POSEKIT_API_KEY`にあなたのAPIキーを設定します。
+1. `.env.example`をコピーして`.env`に名前を変更してください。
+2. `.env`ファイル内の`POSEKIT_API_KEY`にあなたのAPIキーを設定します。
 
 ## 使用方法
 
