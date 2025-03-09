@@ -23,8 +23,9 @@
 
 ## APIキーの設定
 
-1. `.env.example`をコピーして`.env`に名前を変更してください。
-2. `.env`ファイル内の`POSEKIT_API_KEY`にあなたのAPIキーを設定します。
+1. [アカウントページ](https://posekit.netlify.app/account)でAPIキーを取得してください。
+2. `.env.example`をコピーして`.env`に名前を変更してください。
+3. `.env`ファイル内の`POSEKIT_API_KEY`にあなたのAPIキーを設定します。
 
 ## 使用方法
 
